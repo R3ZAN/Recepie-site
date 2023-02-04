@@ -48,9 +48,13 @@
 
 .main2-recepie-cards-c1-main-text-items {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     flex-wrap: wrap;
-    height: 200px;
+}
+
+.main2-recepie-cards-c1-main-text-items.item2,
+.main2-recepie-cards-c1-main-text-items.item4 {
+    padding: 0 0 0 20px;
 }
 
 .main2-recepie-cards-c1-main-fb-rate {
