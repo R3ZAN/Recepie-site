@@ -1,0 +1,74 @@
+.main2-select {
+    margin: 50px 170px;
+}
+
+.main2-select-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main2-select-title-text {
+    margin: 0;
+}
+
+.main2-select-choose-all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main2-select-choose {
+    display: flex;
+}
+
+.main2-select-choose-blocks {
+    width: 230px;
+    height: 60px;
+    background-color: $ligreen;
+    font-size: 20px;
+    font-weight: 500;
+    color: $f;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.main2-select-choose-blocks.bl1 {
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right-color: $f;
+}
+
+.main2-select-choose-blocks.bl2,
+.main2-select-choose-blocks.bl3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left-color: $f;
+    border-right-color: $f;
+}
+
+.main2-select-choose-blocks.bl4 {
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left-color: $f;
+}
+
+.main2-select-choose-blocks-img {
+    height: 24px;
+    width: 24px;
+}
+
+.main2-select-choose-blocks.ing,
+.main2-select-choose-blocks.btn {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main2-select-choose-text {
+    margin: 16px 0;
+}

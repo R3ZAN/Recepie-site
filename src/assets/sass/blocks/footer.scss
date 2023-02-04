@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $ligreen;
+    height: 140px;
+    padding: 0 355px;
+}
+
+.footer-logo {
+    width: 160px;
+    height: 130px;
+}
+
+.footer-menu {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.footer-social {
+    color: $f;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-send-link, 
+.footer-menu-ad-link,
+.footer-menu-faq-link,
+.footer-menu-feedback-link {
+    text-decoration: none;
+    color: $f;
+}

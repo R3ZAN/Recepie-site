@@ -1,0 +1,71 @@
+.main1-bl1 {
+    height: 667px;
+    background-color: $f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 200px;
+}
+
+.main1-bl1-text {
+    width: 704px;
+    height: 411px;
+    margin-bottom: 10%;
+}
+
+.main1-bl1-text-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: $textgr;
+}
+
+.main1-bl1-text-descr {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main1-bl2 {
+    height: 830px;
+    background-color: $ligreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 20%;
+}
+
+.main1-bl2-text-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: $f;
+}
+
+.main1-bl2-text-descr {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main1-bl3 {
+    height: 1000px;
+    background-color: $f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 200px;
+}
+
+.main1-bl3-text {
+    margin-right: 15%;
+}
+
+.main1-bl3-text-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: $textgr;
+}
+
+.main1-bl3-text-descr {
+    width: 550px;
+    font-size: 24px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,107 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $ligreen;
+}
+
+.header-logo {
+    width: 113px;
+    height: 80px;
+    margin: 0 0 0 42px;
+}
+
+.header-logo-img {
+    width: 113px;
+    height: 80px;
+    margin: 0;
+}
+
+.header-search-bar {
+    width: 363px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    border-color: $drkgreen;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: $f;
+    background: url(../img/search.svg) 9px center no-repeat  $drkgreen;
+    padding-left: 50px;
+    margin: 20px 0;
+    outline: none;
+}
+
+.header-search-bar::-webkit-input-placeholder { 
+    color: $f; 
+}
+
+.header-search-pic {
+    margin: 8px 0 8px 9px;
+}
+
+.header-search-text {
+    color: $f;
+    margin: 10px 0 12px 20px;
+}
+
+.header-menu {
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0;
+}
+
+.header-menu-point-text {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: $f;
+}
+
+.header-menu-point-text:active {
+    text-decoration: none;
+    font-weight: 600;
+    color: $f;
+}
+
+.header-menu-point-text:visited {
+    text-decoration: none;
+    font-weight: 600;
+    color: $f;
+}
+
+.header-ent {
+    width: 334px;
+    display: flex;
+    margin: 16px 18px 16px 0;
+} 
+
+.header-ent-pic {
+    width: 48px;
+    height: 48px;
+}
+
+.header-ent-text {
+    margin: 12px 0 16px 10px;
+    color: $f;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+}
+
+.header-ent-text-log {
+    width: 60px;
+    height: 27px;
+}
+
+.header-ent-text-div-text {
+    margin: 0 5px;
+}
+
+.header-ent-text-log-word,
+.header-ent-text-reg-word {
+    text-decoration: none;
+    color: $f;
+}

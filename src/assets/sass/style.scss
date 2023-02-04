@@ -1,0 +1,20 @@
+@import "vars";
+@import "mixins";
+
+
+/* Default styles */
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/footer.scss";
+@import "blocks/main1.scss";
+@import "blocks/choice.scss";
+@import "blocks/little-cards.scss";
+@import "blocks/select.scss";
+@import "blocks/big-cards.scss"
+/* Vendor libs */

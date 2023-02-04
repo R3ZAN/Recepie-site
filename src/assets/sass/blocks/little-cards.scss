@@ -1,0 +1,91 @@
+.main2-card {
+    margin: 38px 170px 50px;
+}
+
+.main2-card-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+
+.main2-card-cards-c1 {
+    position: relative;
+    height: 370px;
+    width: 200px;
+    background-color: $ligreen;
+    border-radius: 30px;
+}
+
+.main2-card-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.main2-card-title-text {
+    margin:  0;
+}
+
+.main2-card-cards-c1-rate {
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 3px;
+    width: 60px;
+    height: 28px;
+    background-color: $drkgreen;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.main2-card-cards-c2-rate {
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 3px;
+    width: 170px;
+    height: 28px;
+    background-color: $drkgreen;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.main2-card-c1-rate-stars {
+    display: flex;
+}
+
+.main2-card-cards-c1-rate-stars-star {
+    margin: 1px 0 2px 2px;
+}
+
+.main2-card-cards-c1-rate-point {
+    width: 23px;
+    height: 22px;
+    margin: 4px 5px 2px 3px;
+}
+
+.main2-card-cards-c1-rate-point-text {
+    color: $f;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main2-card-cards-c1-pic {
+    height: 180px;
+}
+
+.main2-card-cards-c1-text {
+    margin: 0 0 0 5px;
+}
+
+.main2-card-cards-c1-text-el {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: $f;
+}
+
+.main2-card-cards-c1-text-el.title {
+    font-size: 24px;
+    font-weight: 500;
+}

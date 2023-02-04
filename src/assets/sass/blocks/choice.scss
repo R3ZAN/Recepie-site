@@ -1,0 +1,31 @@
+.main2-choice {
+    margin: 60px 0 0 0;
+}
+
+.main2-choice-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main2-choice-title-text {
+    margin: inherit;
+}
+
+.main2-choice-name {
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 412px 38px 412px;
+}
+
+.main2-choice-name-link {
+    text-decoration: none;
+    color: $b;
+}
+
+.main2-choice-name-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+

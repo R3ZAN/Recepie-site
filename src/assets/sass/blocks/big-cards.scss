@@ -1,0 +1,81 @@
+.main2-recepie-title {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.main2-recepie {
+    margin: 50px 167px 100px;
+}
+
+.main2-recepie-cards-c1 {
+    width: 1579px;
+    height: 400px;
+    background-color: $ligreen;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2-recepie-cards-c1-img {
+    margin: 25px;
+}
+
+.main2-recepie-cards-c1-main-text {
+    width: 500px;
+    height: 256px;
+    font-weight: 500;
+    font-size: 20px;
+    color: $f;
+}
+
+.main2-recepie-cards-c1-main-text-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.main2-recepie-cards-c1-main-text-title-text {
+    text-decoration: none;
+    color: white;
+    margin: 34px 0 33px;
+}
+
+.main2-recepie-favicon{
+    height: 40px;
+    width: 40px;
+}
+
+.main2-recepie-cards-c1-main-text-items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.main2-recepie-cards-c1-main-fb-rate {
+    width: 320px;
+    height: 58px;
+    background-color: $drkgreen;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2-recepie-cards-c1-main-fb-rate-stars {
+    display: flex;
+}
+
+.main2-recepie-cards-c1-main-fb-rate-num {
+    color: $f;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 6px 15px 6px 0;
+}
+
+.main2-recepie-cards-c1-main-fb-com {
+    width: 320px;
+    height: 250px;
+    background-color: $drkgreen;
+    border-radius: 35px;
+}
