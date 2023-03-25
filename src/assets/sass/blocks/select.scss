@@ -1,10 +1,10 @@
 .main2-select {
-    margin: 50px 170px;
+    margin: 3.125rem 10.625rem;
 }
 
 .main2-select-title {
     margin: 0;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     text-align: center;
 }
@@ -16,7 +16,7 @@
 .main2-select-choose-all {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .main2-select-choose {
@@ -24,17 +24,17 @@
 }
 
 .main2-select-choose-blocks {
-    width: 230px;
-    height: 60px;
+    width: 14.375rem;
+    height: 3.75rem;
     background-color: $ligreen;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: $f;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: .0625rem solid rgba(0,0,0,0.2);
 }
 
 .main2-select-choose-blocks.bl1 {
-    border-radius: 10px 0 0 10px;
+    border-radius: .625rem 0 0 .625rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,7 +51,7 @@
 }
 
 .main2-select-choose-blocks.bl4 {
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 .625rem .625rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,16 +59,16 @@
 }
 
 .main2-select-choose-blocks-img {
-    height: 24px;
-    width: 24px;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .main2-select-choose-blocks.ing,
 .main2-select-choose-blocks.btn {
-    border-radius: 10px;
+    border-radius: .625rem;
     text-align: center;
 }
 
 .main2-select-choose-text {
-    margin: 16px 0;
+    margin: 1rem 0;
 }
