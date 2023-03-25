@@ -1,62 +1,64 @@
 .header {
-    height: 80px;
+    height: 5rem;
     width: 100%;
+    min-width: 118.75rem;
+
     display: flex;
     justify-content: space-between;
     background-color: $ligreen;
 }
 
 .header-logo {
-    width: 113px;
-    height: 80px;
-    margin: 0 0 0 42px;
+    width: 7.0625rem;
+    height: 5rem;
+    margin: 0 0 0 2.625rem;
 }
 
 .header-logo-img {
-    width: 113px;
-    height: 80px;
+    width: 7.0625rem;
+    height: 5rem;
     margin: 0;
 }
 
 .header-search-bar {
-    width: 363px;
-    height: 40px;
-    border-radius: 13px;
+    width: 22.6875rem;
+    height: 2.5rem;
+    border-radius: .8125rem;
     border: none;
     border-color: $drkgreen;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: $f;
-    background: url(../img/search.svg) 9px center no-repeat  $drkgreen;
-    padding-left: 50px;
-    margin: 20px 0;
+    background: url(../img/search.svg) .5625rem center no-repeat $drkgreen;
+    padding-left: 3.125rem;
+    margin: 1.25rem 0;
     outline: none;
 }
 
-.header-search-bar::-webkit-input-placeholder { 
-    color: $f; 
+.header-search-bar::-webkit-input-placeholder {
+    color: $f;
 }
 
 .header-search-pic {
-    margin: 8px 0 8px 9px;
+    margin: .5rem 0 .5rem .5625rem;
 }
 
 .header-search-text {
     color: $f;
-    margin: 10px 0 12px 20px;
+    margin: .625rem 0 .75rem 1.25rem;
 }
 
 .header-menu {
-    width: 720px;
+    width: 45rem;
     display: flex;
     justify-content: space-between;
-    margin: 26px 0;
+    margin: 1.625rem 0;
 }
 
 .header-menu-point-text {
     text-decoration: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: $f;
 }
 
@@ -73,31 +75,31 @@
 }
 
 .header-ent {
-    width: 334px;
+    width: 20.875rem;
     display: flex;
-    margin: 16px 18px 16px 0;
-} 
+    margin: 1rem 1.125rem 1rem 0;
+}
 
 .header-ent-pic {
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
 }
 
 .header-ent-text {
-    margin: 12px 0 16px 10px;
+    margin: .75rem 0 1rem .625rem;
     color: $f;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
 }
 
 .header-ent-text-log {
-    width: 60px;
-    height: 27px;
+    width: 3.75rem;
+    height: 1.6875rem;
 }
 
 .header-ent-text-div-text {
-    margin: 0 5px;
+    margin: 0 .3125rem;
 }
 
 .header-ent-text-log-word,

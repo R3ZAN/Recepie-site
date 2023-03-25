@@ -2,29 +2,30 @@
     display: flex;
     justify-content: space-between;
     background-color: $ligreen;
-    height: 140px;
-    padding: 0 355px;
+    height: 8.75rem;
+    padding: 0 22.1875rem;
+    min-width: 74.375rem;
 }
 
 .footer-logo {
-    width: 160px;
-    height: 130px;
+    width: 10rem;
+    height: 8.125rem;
 }
 
 .footer-menu {
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    width: 620px;
+    width: 38.75rem;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .footer-social {
     color: $f;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 

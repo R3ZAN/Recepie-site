@@ -1,31 +1,35 @@
+.main1 {
+    min-width: 118.75rem;
+}
+
 .main1-bl1 {
-    height: 667px;
+    height: 41.6875rem;
     background-color: $f;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 200px;
+    padding: 3% 12.5rem;
 }
 
 .main1-bl1-text {
-    width: 704px;
-    height: 411px;
+    width: 44rem;
+    height: 25.6875rem;
     margin-bottom: 10%;
 }
 
 .main1-bl1-text-title {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     color: $textgr;
 }
 
 .main1-bl1-text-descr {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .main1-bl2 {
-    height: 830px;
+    height: 51.875rem;
     background-color: $ligreen;
     display: flex;
     justify-content: space-between;
@@ -34,23 +38,23 @@
 }
 
 .main1-bl2-text-title {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     color: $f;
 }
 
 .main1-bl2-text-descr {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .main1-bl3 {
-    height: 1000px;
+    height: 62.5rem;
     background-color: $f;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5% 200px;
+    padding: 0.5% 12.5rem;
 }
 
 .main1-bl3-text {
@@ -58,14 +62,14 @@
 }
 
 .main1-bl3-text-title {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     color: $textgr;
 }
 
 .main1-bl3-text-descr {
-    width: 550px;
-    font-size: 24px;
+    width: 34.375rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
